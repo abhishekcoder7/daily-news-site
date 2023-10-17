@@ -1,6 +1,6 @@
 // https://newsapi.org/v2/everything?q=tesla&from=2023-09-17&sortBy=publishedAt&apiKey=API_KEY
 // alternate api key : 1d3a0eefa97b499d8fbc4ee93eeb40b7
-// const API_KEY = "f99353a9f4024b40a4b88c02f504d54d";
+const API_KEY = "f99353a9f4024b40a4b88c02f504d54d";
 
 const url = "https://newsapi.org/v2/everything?q=";
 
