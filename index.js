@@ -13,7 +13,7 @@ fetchNews('India');
 async function fetchNews(query){
     const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
     const data = await res.json();
-    if(data.articles.length===0) addToCard([]);
+    if(!data.articles) addToCard([]);
     addToCard(data.articles);
 }
 
