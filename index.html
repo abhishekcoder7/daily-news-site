@@ -17,32 +17,27 @@
             </div>
             <div class="nav-wrapper-tabs">
                 <ul>
-                    <li>Sports</li>
-                    <li>Politics</li>
-                    <li>Finance</li>
-                    <li>Hollywood</li>
+                    <li id="sports" onclick="navClicked('sports')">Sports</li>
+                    <li id="politics" onclick="navClicked('politics')">Politics</li>
+                    <li id="finance" onclick="navClicked('finance')">Finance</li>
+                    <li id="hollywood" onclick="navClicked('hollywood')">Hollywood</li>
+                    <li id="bollywood" onclick="navClicked('bollywood')">Bollywood</li>
                 </ul>
             </div>
             <div class="nav-wrapper-search">
                 <input type="text" id="search-item" placeholder="search latest news here">
-                <button id="search-item-btn">Search</button>
             </div>
         </nav>
     </header>
         <div class="main-container">
-            <div class="card">
-                <img src="http://via.placeholder.com/640x360" alt="">
-                <p class="title">this is title Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quae.</p>
-                <p class="source">This is source of news</p>
-                <p class="description">These are details about news Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
-            </div>
+            
         </div>
-        <template>
+        <template id="card-template">
             <div class="card">
-                <img src="http://via.placeholder.com/640x360" alt="">
-                <p class="title">this is title Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quae.</p>
-                <p class="source">This is source of news</p>
-                <p class="description">These are details about news Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+                <img src="" alt="" id ="card-img">
+                <p id="title"></p>
+                <p id="source"></p>
+                <p id="description"></p>
             </div>
            
         </template>
